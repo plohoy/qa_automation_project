@@ -6,6 +6,10 @@ import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+import io.github.cdimascio.dotenv.Dotenv;
+
+Dotenv dotenv = Dotenv.load();
+        dotenv.get("LOGIN")
 
 public class SomeTests {
 
