@@ -32,6 +32,7 @@ target/
 .project
 .settings/org.eclipse.buildship.core.prefs
 .vscode
+.env
 
 #env
-.env
+
